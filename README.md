@@ -12,6 +12,28 @@
 
 Para rodar o projeto localmente, siga os passos abaixo:
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/RaMMos7/TocamusicPor.git
+# 1. Clone o repositório
+git clone https://github.com/RaMMos7/TocamusicPor.git
+
+# 2. Acesse o diretório do projeto
+cd TocamusicPor
+
+# 3. Instale as dependências (se o projeto for Node.js)
+npm install
+
+# ou, caso seja Python, use:
+# pip install -r requirements.txt
+
+# 4. (Opcional) Configure o banco de dados, se necessário
+# Consulte o arquivo `config` ou `README.md` para detalhes sobre como configurar a conexão com o banco de dados.
+
+# 5. Execute o projeto
+# Se for um projeto Node.js:
+npm start
+
+# ou, se for Python:
+# python app.py
+
+# 6. Acesse a aplicação no navegador (geralmente em http://localhost:3000)
+# Ou outra porta configurada conforme o projeto
+
